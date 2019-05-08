@@ -1,6 +1,82 @@
+Notes for modules 2 and 3
+===========================
+
+if-else
+--------
+Report automatically generated. If slope is positive or negative and there are no outliers. If else and elif
+If flow control. Write program from sketch. If else, and, or.
+Ladders;  Operator is provided as input, and two values exist. Do either +-*/ operationg; only one option gets executed.
+
+While loop
+----------
+While loop with += incremental
+Do while loop. Execute, then check: can be done with a break statement and condition check at end of a while True loop. 
+
+Example. Keep going until you see a particular DNA sequence. Or peak value above certain threshold
+
+Strings
+--------
+* Strings first, then lists
+* len(string). First introduction to methods
+* str indexing: zero based
+* .find
+* .index
+* .pop
+* Index slices. Doesn't return last element. string[3:9] will be how long?
+* String indexing slice: string[3:]
+* String list slicing with skip element: string[3:5:1]
+* List comprehension. Find number of AGTC entries in a sequence.
+* Read genome. Stop when you find first sequence of GATTAG
+* OPerators on a string: string *4
+* How many times does the pattern AGGTA appear in a DNA string?
+
+Operators
+----------
+A += 4; also others like subtract
+
+Style
+-----
+Comments: TODO comments used sparingly
+
+Loops
+-------
+Make the Fibonacci series with append function
+while True: 
+   print('Hi')
+   # Infinite while loop. How to stop it?
+
+Files
+-------
+Read into list. read_lines() function and iterations on the list.
+Write to file
+Close file
+
+Types
+------
+change from one type to another: 
+* float(45)  
+* int(45.7)
+* round(45.7)  # different result
+* chr(65)
+* Won't loose precision with ints. If a is int And multiplied by float, it is upgraded
+
+Lists
+-------
+* See mikedane resources
+* Lists can have mixed types. Contrast to MATLAB
+* Find entries which appear more than once in a list
+* Common elements into two different lists. Join function equivalent?
+* Count how many entries in a list are greater than a threshold. List comprehension
+* Contrast with tuples. Seen before. Immutable concept introduced
+* Index slices. Doesn't return last element
+* Lists: append, insert, extend. Sort is special..clear() too
+* Read file for the above DNA string
+    import urllib.request 
+    with urllib.request.urlopen('http://python.org/') as response:    
+        html = response.read()
+    
+    
+General exercises
+---------------------
+Random number. Guess it's vlaue. If else, while loops printing.
 Calculate the molar mass given a chemical formula: C5H9NOS. Methionine. Do for others amino acids
-
-How many times does the pattern aggta appear in a DNA string?
-
-
-Read file import urllib.request with urllib.request.urlopen('http://python.org/') as response:    html = response.read()
