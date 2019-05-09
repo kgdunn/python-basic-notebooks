@@ -7,6 +7,37 @@ Report automatically generated. If slope is positive or negative and there are n
 If flow control. Write program from sketch. If else, and, or.
 Ladders;  Operator is provided as input, and two values exist. Do either +-*/ operationg; only one option gets executed.
 
+One-liner if statement: 
+
+a = 3
+b = 4
+q = a if a < b else b 
+
+
+For loop
+---------
+
+
+Newton's method with this plan (sketch out on paper)
+1. Initialize a
+2. Initialize x to a/2
+3. Repeat a few times:
+>Replace x by (x + a/x)/2
+>Display x
+4. Stop; show the true value
+
+
+Vectorization:
+s = 0
+for n = 1:100000
+    s += 1/n^**
+
+# Wait for numpy
+n = arange(100000)
+s = sum( 1 / n**2 )
+
+
+
 While loop
 ----------
 While loop with += incremental
