@@ -1,3 +1,73 @@
+• DONE: using strings;
+•	lists (vectors, if you are used to MATLAB or C or Java);
+•	for loops;
+•	how to read a file and process it line by line;
+•	if-else branches in your code;
+•	comments; and
+•	intentionally creating errors.
+
+Strings
+=========
+
+Strings are some of the simplest objects in Python. Last module you created several of them:
+
+```python
+s = """Secretly under development for the past three years, Bezos said the "Blue Moon" lander, using a powerful new hydrogen-powered engine generating up to 10,000 pounds of thrust, will be capable of landing up to 6.5 metric tons of equipment on the lunar surface."""
+```
+
+Use the above string to perform the following actions. Look up the Standard library help files for ``strings`` (like we showed last time) to find the methods required.
+
+* Print it to screen completely in upper case.
+* Print it to screen but with lower and uppercase characters switched around.
+* Try the following: ``print(s * 8)``.
+* Try the following: ``print(s + s)``. Do these two make sense?
+* What is the length of this string?
+* How many times does the word "the" appear in the string?
+* At which position in the string does the word ``Bezos`` appear?
+* Return a boolean ``True`` or ``False`` if the string ``endswith`` a full stop.
+* Return the string, replacing the instance of 'hydrogen' with 'nuclear'.
+* Replace every space in the above sentence with a newline character, and reprint the sentence to the screen.
+
+The above are all effectively done using what are called ***methods***.
+
+> A method an *attribute* of an *object*.
+
+In the above, a ``string`` is your *object* and objects have one or more attributes.
+
+Some tips:
+
+1. You can get a **list** [we cover lists next!] of all attributes using the ``dir(...)`` command.
+   ```python
+   s = """Secretly under development for ... the lunar surface."""
+   dir(s)
+   ['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+   ```
+   You can ignore all the attributes beginning and ending with a double \_. For example ``'__add__'``. The attributes which are of practical use to you are the ones starting with ``capitalize``, all the way to the end.
+
+2. You don't need to create a string ``s`` first to get a list of the attributes. You can also do this:
+
+    ```python
+    dir('')
+    dir(str)
+    ```
+
+3. If you see an attribute that looks interesting, you can request help on it:  ``help(''.startswith)``. Notice the ``''`` in the brackets: it creates an empty string, and then accesses the attribute ``.startswith`` and asks for help on that. You will get a piece of help text printed to the screen. This is helpful later on when you are comfortable with Python. In the beginning it is more helpful to search in a search engine, which will give you a page with examples. The built-in Python help is usually very very brief.
+
+
+Use this knowledge know to figure out what the difference is between ``s.find`` and ``s.index``.  Make sense?
+
+
+Lists
+======
+
+Using the above string, you can create a list of it, splitting every word in the sentence into an entry in the list.
+
+You do this with: ``s.split(' ')`` and it will return: ``['Secretly', 'under', 'development', ...  'the', 'lunar', 'surface.']``
+
+Then you can iterate on that list, or do anything that lists can do. This section explores list methods
+
+
+
 Notes for modules 2 and 3
 ===========================
 
@@ -7,11 +77,11 @@ Report automatically generated. If slope is positive or negative and there are n
 If flow control. Write program from sketch. If else, and, or.
 Ladders;  Operator is provided as input, and two values exist. Do either +-*/ operationg; only one option gets executed.
 
-One-liner if statement: 
+One-liner if statement:
 
 a = 3
 b = 4
-q = a if a < b else b 
+q = a if a < b else b
 
 
 For loop
@@ -41,7 +111,7 @@ s = sum( 1 / n**2 )
 While loop
 ----------
 While loop with += incremental
-Do while loop. Execute, then check: can be done with a break statement and condition check at end of a while True loop. 
+Do while loop. Execute, then check: can be done with a break statement and condition check at end of a while True loop.
 
 Example. Keep going until you see a particular DNA sequence. Or peak value above certain threshold
 
@@ -72,7 +142,7 @@ Comments: TODO comments used sparingly
 Loops
 -------
 Make the Fibonacci series with append function
-while True: 
+while True:
    print('Hi')
    # Infinite while loop. How to stop it?
 
@@ -84,8 +154,8 @@ Close file
 
 Types
 ------
-change from one type to another: 
-* float(45)  
+change from one type to another:
+* float(45)
 * int(45.7)
 * round(45.7)  # different result
 * chr(65)
@@ -102,11 +172,11 @@ Lists
 * Index slices. Doesn't return last element
 * Lists: append, insert, extend. Sort is special..clear() too
 * Read file for the above DNA string
-    import urllib.request 
-    with urllib.request.urlopen('http://python.org/') as response:    
+    import urllib.request
+    with urllib.request.urlopen('http://python.org/') as response:
         html = response.read()
-    
-    
+
+
 General exercises
 ---------------------
 Random number. Guess it's vlaue. If else, while loops printing.
