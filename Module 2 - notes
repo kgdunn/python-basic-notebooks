@@ -1,4 +1,12 @@
+Containers
+==========
 
+There are four collection data types in the Python programming language:
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered and unindexed. No duplicate members.
+Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
 
 Strings
 =========
@@ -10,6 +18,92 @@ Strings
 Lists
 ======
 
+Solution:
+Is aspergillus in my list? True
+Aspergillus index is: 2
+Last element in the list is: aspergillus
+Last three elements: ['chimp', 'bacillus', 'aspergillus']
+Number of wrong elements: 1
+Number of wrong elements: 0
+[2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+
+# Initialize a list with elements:
+# 'yeast', 'aspergillus' and 'bacillus'
+micros = ['yeast', 'bacillus', 'aspergillus']
+
+# Test if yarrowia is  in 
+# the list with the 'in' statment
+print("Is aspergillus in my list? {}".format('aspergillus' in micros))
+
+# Now create another list called 'primates' with 
+# 'human' and 'chimp' called 
+primates = ['human', 'chimp']
+
+# Construct a new list with both the micros 
+# and the primates called species 
+# using the '+' operator
+species = micros + primates
+
+# grow the 'species' list with single element 'cow' 
+# without making a new list object, 
+# i.e. grow the list using the 'append' function
+species.append('cow')
+
+# Create another list called 'reptiles'
+# containing 'crocodile' and 'turtle'
+reptiles = ['crocodile', 'turtle']
+
+# Grow the species list with the reptiles
+# using the 'extend' function
+# 'extend' appends the whole reptiles list to species
+species.extend(reptiles)
+
+# Now print the index of 'aspergillus' in the species
+print("Aspergillus index is: {}".format(species.index('aspergillus')))
+
+# let's sort the list 'species' using the 'sort' function
+species.sort()
+
+# Reverse all elements in the list using the 'reverse' function
+species.reverse()
+
+# Indexing list can be done from the beginning, 
+# but also from the end using negative integers
+# Print the last element in the list
+print("Last element in the list is: {}".format(species[-1]))
+
+# Now use negative indexing to print the last three elements of the list
+print("Last three elements: {}".format(species[-3:]))
+
+
+# CAUTION! You cannot copy a list simply by typing species2 = species, 
+# because: species2 will only be a reference to list1, 
+# and changes made in species will automatically also be made in species2
+species2 = species
+species2.append('wrong')
+
+# Count number od 'wrong' elements in the 
+# 'species list using the 'count' function
+print("Number of wrong elements: {}".format(species.count('wrong')))
+
+# Let's remove this erroneously added entry from species
+# using the 'pop' function (defaults to removing the last element)
+species.pop()
+
+# to prevent unwanting referencing, use 'copy'
+# to make a new list object containing the same content
+species2 = species.copy()
+species2.append('wrong')
+
+# Again Count number of 'wrong' elements in the 
+# 'species list using the 'count' function
+# Now it is not there anymore
+print("Number of wrong elements: {}".format(species.count('wrong')))
+
+# Make a list with first 10 elements of the 
+# multiplication table of 2 (tafel van 2)
+# using "Python list comprehension"
+print([2**x for x in range(1,11)])
 
 
 Notes for modules 2 and 3
