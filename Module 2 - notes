@@ -18,64 +18,6 @@ Strings
 Lists
 ======
 
-Solution:
-Is aspergillus in my list? True
-Aspergillus index is: 2
-Last element in the list is: aspergillus
-Last three elements: ['chimp', 'bacillus', 'aspergillus']
-Number of wrong elements: 1
-Number of wrong elements: 0
-[2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
-
-# Initialize a list with elements:
-# 'yeast', 'aspergillus' and 'bacillus'
-micros = ['yeast', 'bacillus', 'aspergillus']
-
-# Test if yarrowia is  in 
-# the list with the 'in' statment
-print("Is aspergillus in my list? {}".format('aspergillus' in micros))
-
-# Now create another list called 'primates' with 
-# 'human' and 'chimp' called 
-primates = ['human', 'chimp']
-
-# Construct a new list with both the micros 
-# and the primates called species 
-# using the '+' operator
-species = micros + primates
-
-# grow the 'species' list with single element 'cow' 
-# without making a new list object, 
-# i.e. grow the list using the 'append' function
-species.append('cow')
-
-# Create another list called 'reptiles'
-# containing 'crocodile' and 'turtle'
-reptiles = ['crocodile', 'turtle']
-
-# Grow the species list with the reptiles
-# using the 'extend' function
-# 'extend' appends the whole reptiles list to species
-species.extend(reptiles)
-
-# Now print the index of 'aspergillus' in the species
-print("Aspergillus index is: {}".format(species.index('aspergillus')))
-
-# let's sort the list 'species' using the 'sort' function
-species.sort()
-
-# Reverse all elements in the list using the 'reverse' function
-species.reverse()
-
-# Indexing list can be done from the beginning, 
-# but also from the end using negative integers
-# Print the last element in the list
-print("Last element in the list is: {}".format(species[-1]))
-
-# Now use negative indexing to print the last three elements of the list
-print("Last three elements: {}".format(species[-3:]))
-
-
 # CAUTION! You cannot copy a list simply by typing species2 = species, 
 # because: species2 will only be a reference to list1, 
 # and changes made in species will automatically also be made in species2
@@ -114,6 +56,9 @@ if-else
 --------
 
 If ; if-else; if-elif-else; aka flow control, indentation and colons. See udemy
+
+Go back to the quadratic example: solve for various values of a and b and c in the equation.
+
 
 Report automatically generated. If slope is positive or negative and there are no outliers. If else and elif
 If flow control. Write program from sketch. If else, and, or.
@@ -161,6 +106,11 @@ Do while loop. Execute, then check: can be done with a break statement and condi
 
 Example. Keep going until you see a particular DNA sequence. Or peak value above certain threshold
 
+Others
+-------
+
+assert statements
+
 
 
 Operators
@@ -202,7 +152,6 @@ You do this with: ``s.split(' ')`` and it will return: ``['Secretly', 'under', '
 Then you can iterate on that list, or do anything that lists can do. This section explores list methods
 
 * See mikedane resources
-* Lists can have mixed types. Contrast to MATLAB
 * Find entries which appear more than once in a list
 * Common elements into two different lists. Join function equivalent?
 * Count how many entries in a list are greater than a threshold. List comprehension
