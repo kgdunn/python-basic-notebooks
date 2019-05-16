@@ -18,6 +18,9 @@ Strings
 Lists
 ======
 
+* Use a list as a stack. Rather not a queue. But it is ok for basic algorithms. Eg a moving average
+
+
 # CAUTION! You cannot copy a list simply by typing species2 = species, 
 # because: species2 will only be a reference to list1, 
 # and changes made in species will automatically also be made in species2
