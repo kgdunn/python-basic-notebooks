@@ -11,15 +11,11 @@ Dictionary is a collection which is unordered, changeable and indexed. No duplic
 Strings
 =========
 
-* List comprehension. Find number of AGTC entries in a sequence.
-* Read genome. Stop when you find first sequence of GATTAG
-
+* M3: List comprehension. Find number of AGTC entries in a sequence.
+* M3: Read genome. Stop when you find first sequence of GATTAG
 
 Lists
 ======
-
-* Use a list as a stack. Rather not a queue. But it is ok for basic algorithms. Eg a moving average
-
 
 # CAUTION! You cannot copy a list simply by typing species2 = species, 
 # because: species2 will only be a reference to list1, 
@@ -58,7 +54,7 @@ Notes for modules 2 and 3
 if-else
 --------
 
-Go back to the quadratic example: solve for various values of a and b and c in the equation.
+M3: Go back to the quadratic example: solve for various values of a and b and c in the equation.
 
 One-liner if statement:
 a = 3
@@ -102,6 +98,8 @@ Others
 
 assert statements
 
+Try catch blocks
+
 
 Operators
 ----------
@@ -124,6 +122,11 @@ Read into list. read_lines() function and iterations on the list.
 Write to file
 Close file
 
+The "with" statement for reading files
+
+The os.path.join function
+
+
 Types
 ------
 change from one type to another:
@@ -145,6 +148,7 @@ Then you can iterate on that list, or do anything that lists can do. This sectio
 * Find entries which appear more than once in a list
 * Common elements into two different lists. Join function equivalent?
 * Count how many entries in a list are greater than a threshold. List comprehension
+* Creating a list from a string: list(my_string); make changes; back to a string again with ''.join()
 * Contrast with tuples. Seen before. Immutable concept introduced
 * Read file for the above DNA string
 
@@ -153,5 +157,6 @@ General exercises
 ---------------------
 Random number. Guess it's vlaue. If else, while loops printing.
 
-Dictionaries introduced:
+Later module: Dictionaries introduced:
+------------------
 Calculate the molar mass given a chemical formula: C5H9NOS. Methionine. Do for others amino acids
