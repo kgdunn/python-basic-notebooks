@@ -27,19 +27,7 @@ species2.append('wrong')
 # 'species list using the 'count' function
 print("Number of wrong elements: {}".format(species.count('wrong')))
 
-# Let's remove this erroneously added entry from species
-# using the 'pop' function (defaults to removing the last element)
-species.pop()
 
-# to prevent unwanting referencing, use 'copy'
-# to make a new list object containing the same content
-species2 = species.copy()
-species2.append('wrong')
-
-# Again Count number of 'wrong' elements in the 
-# 'species list using the 'count' function
-# Now it is not there anymore
-print("Number of wrong elements: {}".format(species.count('wrong')))
 
 # Make a list with first 10 elements of the 
 # multiplication table of 2 (tafel van 2)
@@ -132,9 +120,6 @@ change from one type to another:
 
 Lists
 -------
-Using the above string, you can create a list of it, splitting every word in the sentence into an entry in the list.
-
-You do this with: ``s.split(' ')`` and it will return: ``['Secretly', 'under', 'development', ...  'the', 'lunar', 'surface.']``
 
 Then you can iterate on that list, or do anything that lists can do. This section explores list methods
 
@@ -142,9 +127,8 @@ Then you can iterate on that list, or do anything that lists can do. This sectio
 * Find entries which appear more than once in a list
 * Common elements into two different lists. Join function equivalent?
 * Count how many entries in a list are greater than a threshold. List comprehension
-* Creating a list from a string: list(my_string); make changes; back to a string again with ''.join()
 * Contrast with tuples. Seen before. Immutable concept introduced
-* Read file for the above DNA string
+
 
 
 General exercises
