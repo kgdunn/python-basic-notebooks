@@ -118,13 +118,7 @@ while True:
 
 Files
 -------
-Read into list. read_lines() function and iterations on the list.
 Write to file
-Close file
-
-The "with" statement for reading files
-
-The os.path.join function
 
 
 Types
