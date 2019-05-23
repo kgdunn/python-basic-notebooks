@@ -1,6 +1,5 @@
 Containers
 ==========
-
 There are four collection data types in the Python programming language:
 
 List is a collection which is ordered and changeable. Allows duplicate members.
@@ -10,30 +9,25 @@ Dictionary is a collection which is unordered, changeable and indexed. No duplic
 
 Strings
 =========
-
 * M3: List comprehension. Find number of AGTC entries in a sequence.
 * M3: Read genome. Stop when you find first sequence of GATTAG
 
 Lists
 ======
-
-# CAUTION! You cannot copy a list simply by typing species2 = species, 
-# because: species2 will only be a reference to list1, 
+# CAUTION! You cannot copy a list simply by typing species2 = species,
+# because: species2 will only be a reference to list1,
 # and changes made in species will automatically also be made in species2
 species2 = species
 species2.append('wrong')
 
-# Count number od 'wrong' elements in the 
+# Count number od 'wrong' elements in the
 # 'species list using the 'count' function
 print("Number of wrong elements: {}".format(species.count('wrong')))
 
-
-
-# Make a list with first 10 elements of the 
+# Make a list with first 10 elements of the
 # multiplication table of 2 (tafel van 2)
 # using "Python list comprehension"
 print([2**x for x in range(1,11)])
-
 
 Notes for modules 2 and 3
 ===========================
@@ -49,13 +43,8 @@ a = 3
 b = 4
 q = a if a < b else b
 
-
 For loop
 ---------
-
-Y dS/dt = -dX/dt
-
-
 Newton's method with this plan (sketch out on paper)
 1. Initialize a
 2. Initialize x to a/2
@@ -76,22 +65,16 @@ s = sum( 1 / n**2 )
 
 While loop
 ----------
-While loop with += incremental
+
+while True:
+   print('Hi')
+   # Infinite while loop. How to stop it?
+
+While loop with += incremental operator; mention other operators are also possible: -= *= /=
+
 Do while loop. Execute, then check: can be done with a break statement and condition check at end of a while True loop.
 
 Example. Keep going until you see a particular DNA sequence. Or peak value above certain threshold
-
-Others
--------
-
-assert statements
-
-Try catch blocks
-
-
-Operators
-----------
-A += 4; also others like subtract
 
 Style
 -----
@@ -100,14 +83,10 @@ Comments: TODO comments used sparingly
 Loops
 -------
 Make the Fibonacci series with append function
-while True:
-   print('Hi')
-   # Infinite while loop. How to stop it?
 
 Files
 -------
 Write to file
-
 
 Types
 ------
@@ -120,7 +99,6 @@ change from one type to another:
 
 Lists
 -------
-
 Then you can iterate on that list, or do anything that lists can do. This section explores list methods
 
 * See mikedane resources
@@ -129,11 +107,9 @@ Then you can iterate on that list, or do anything that lists can do. This sectio
 * Count how many entries in a list are greater than a threshold. List comprehension
 * Contrast with tuples. Seen before. Immutable concept introduced
 
-
-
 General exercises
 ---------------------
-Random number. Guess it's vlaue. If else, while loops printing.
+Random number. Guess it's value. If else, while loops printing.
 
 Later module: Dictionaries introduced:
 ------------------
