@@ -29,9 +29,6 @@ print("Number of wrong elements: {}".format(species.count('wrong')))
 # using "Python list comprehension"
 print([2**x for x in range(1,11)])
 
-Notes for modules 2 and 3
-===========================
-
 
 if-else
 --------

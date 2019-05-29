@@ -37,3 +37,7 @@ notebooks.
 *  Reading from a file
 *  Creating errors, checking for errors and handling errors
 *  Challenge problems
+
+[Notebook 4:]()
+
+*  Revision control. This notebook is covered using external resources.
