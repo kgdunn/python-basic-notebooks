@@ -38,6 +38,6 @@ notebooks.
 *  Creating errors, checking for errors and handling errors
 *  Challenge problems
 
-[Notebook 4:]()
+[Notebook 4:](https://github.com/kgdunn/python-basic-notebooks/blob/master/Module%2004%20-%20interactive.ipynb)
 
 *  Revision control. This notebook is covered using external resources.

@@ -1,3 +1,8 @@
+Data analysis/Data Science
+
+Cover topics mentioned here still: https://github.com/kgdunn/digital-skills-module5/blob/master/Notebooks/02.0%20NumPy%20arrays.ipynb
+
+
 Containers
 ==========
 There are four collection data types in the Python programming language:
