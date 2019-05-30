@@ -41,3 +41,13 @@ notebooks.
 [Notebook 4:](https://github.com/kgdunn/python-basic-notebooks/blob/master/Module%2004%20-%20interactive.ipynb)
 
 *  Revision control. This notebook is covered using external resources.
+
+[Notebook 5:](https://yint.org/pybasic05)
+
+This module focuses on numerical data analysis; we introduce vectors, matrices and arrays.
+
+* Using NumPy to create various vectors, matrices and arrays, containing specific values.
+* Mathematical operations on these arrays.
+* Challenge problems that require using vectors and matrices.
+
+*  
