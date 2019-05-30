@@ -42,7 +42,7 @@ notebooks.
 
 *  Revision control. This notebook is covered using external resources.
 
-[Notebook 5:](https://yint.org/pybasic05)
+[Notebook 5: https://yint.org/pybasic05](https://yint.org/pybasic05)
 
 This module focuses on numerical data analysis; we introduce vectors, matrices and arrays.
 
