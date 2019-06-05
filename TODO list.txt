@@ -1,7 +1,7 @@
 Data analysis/Data Science
 
 Cover topics mentioned here still: https://github.com/kgdunn/digital-skills-module5/blob/master/Notebooks/02.0%20NumPy%20arrays.ipynb
-
+Consider elements from this notebook for module 1 and 2: https://nbviewer.jupyter.org/github/engineersCode/EngComp1_offtheground/blob/master/notebooks_en/2_Jupyter_strings_and_lists.ipynb
 
 Containers
 ==========
