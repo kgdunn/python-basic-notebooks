@@ -1,3 +1,5 @@
+Numpy checklist: https://github.com/ageron/handson-ml/blob/master/tools_numpy.ipynb
+
 Data analysis/Data Science
 
 Cover topics mentioned here still: https://github.com/kgdunn/digital-skills-module5/blob/master/Notebooks/02.0%20NumPy%20arrays.ipynb
