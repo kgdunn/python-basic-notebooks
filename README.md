@@ -38,16 +38,17 @@ notebooks.
 *  Creating errors, checking for errors and handling errors
 *  Challenge problems
 
-[Notebook 4:](https://github.com/kgdunn/python-basic-notebooks/blob/master/Module%2004%20-%20interactive.ipynb)
+[Notebook 4: https://yint.org/pybasic04](https://yint.org/pybasic04)
 
-*  Revision control. This notebook is covered using external resources.
+This module focuses on introducing vectors, matrices and arrays.
+
+* Using NumPy to create various vectors, matrices and arrays, containing specific values.
+
+It is a long module, but it is to bring everyone to the same level of understanding.
 
 [Notebook 5: https://yint.org/pybasic05](https://yint.org/pybasic05)
 
-This module focuses on numerical data analysis; we introduce vectors, matrices and arrays.
+This module focuses on mathematical operations using arrays.
 
-* Using NumPy to create various vectors, matrices and arrays, containing specific values.
-* Mathematical operations on these arrays.
+* Mathematical operations (addition, multiplication, matrix math) on arrays.
 * Challenge problems that require using vectors and matrices.
-
-*  
