@@ -47,6 +47,16 @@ a = 3
 b = 4
 q = a if a < b else b
 
+
+Example:
+
+analysis_type = ['MACHINE_TTR', 'MACHINE_PH', 'CellCount method1', 'CellCount method2', 'CellCount method 3']
+
+Write a one-liner if-else that returns a variable called ``axis_type`` which has the value of 'log' if the
+``analysis_type`` contains the word 'CellCount', or otherwise returns the value 'linear'.
+Write a for loop that iterates over the ``analysis_type`` list, and returns the appropriate 'axis_type' value.
+
+
 For loop
 ---------
 Newton's method with this plan (sketch out on paper)
