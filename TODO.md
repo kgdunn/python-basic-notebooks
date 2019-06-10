@@ -128,3 +128,13 @@ Random number. Guess it's value. If else, while loops printing.
 Later module: Dictionaries introduced:
 ------------------
 Calculate the molar mass given a chemical formula: C5H9NOS. Methionine. Do for others amino acids
+
+NumPy
+-----
+
+### Try these elementwise operations on arrays yourself
+
+>1. Calculating the absolute values: `np.fabs(...)` and  `np.absolute(...)`
+>2. Comparing two arrays and return the minimum `np.fmin(...)` and maximum `np.fmax(...)`
+>3. The reciprocal value of $x$ is equal to $1/x$. You can calculate it using `np.reciprocal(...)`
+>4. The sign of the values in the array: `np.sign(...)`
