@@ -138,3 +138,22 @@ NumPy
 >2. Comparing two arrays and return the minimum `np.fmin(...)` and maximum `np.fmax(...)`
 >3. The reciprocal value of $x$ is equal to $1/x$. You can calculate it using `np.reciprocal(...)`
 >4. The sign of the values in the array: `np.sign(...)`
+
+
+* get the element in row 2, column 3, layer 4
+* Matrix transpose and multiplication
+* iterate over elements of an array
+* recap an exercise from last week.
+* write entries to an array index
+* matrix multiplication for regression: https://nbviewer.jupyter.org/github/engineersCode/EngComp1_offtheground/blob/master/notebooks_en/5_Linear_Regression_with_Real_Data.ipynb
+
+
+**Exercises**
+
+* Random walk
+* Average of the dice thrown tends to be normally
+* Transpose matrix
+* Linear system of equations a least squares equation for a doe
+* eig and svd
+* 3D array: calculate summary values across each axis
+
