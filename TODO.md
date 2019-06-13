@@ -161,7 +161,7 @@ Raspberry PI question
 
 ### Check your knowledge
 
-You can apply all the knowledge above by solving this problem. 
+. 
 
 
 
