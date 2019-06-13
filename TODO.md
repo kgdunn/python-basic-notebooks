@@ -141,7 +141,6 @@ NumPy
 
 
 * get the element in row 2, column 3, layer 4
-* Matrix transpose and multiplication
 * iterate over elements of an array
 * recap an exercise from last week.
 * write entries to an array index
@@ -152,8 +151,9 @@ NumPy
 
 * Random walk
 * Average of the dice thrown tends to be normally
-* Transpose matrix
 * Linear system of equations a least squares equation for a doe
 * eig and svd
 * 3D array: calculate summary values across each axis
 
+
+Raspberry PI question
