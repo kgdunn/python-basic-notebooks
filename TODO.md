@@ -157,3 +157,22 @@ NumPy
 
 
 Raspberry PI question
+
+
+### Check your knowledge
+
+You can apply all the knowledge above by solving this problem. 
+
+
+
+Matrix form of least squares: https://learnche.org/pid/least-squares-modelling/multiple-linear-regression
+
+
+
+P <- c(-1,   +1,  -1, +1,    0,   0)
+T <- c(-1,   -1,  +1, +1,    0,   0)
+y <- c(699, 713, 753, 745, 732, 733 )
+
+summary(lm(y ~ P + T))
+
+
