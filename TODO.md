@@ -1,5 +1,9 @@
 Numpy checklist: https://github.com/ageron/handson-ml/blob/master/tools_numpy.ipynb
 
+to come still: introduce sets as an iterable
+
+
+
 Data analysis/Data Science
 
 Cover topics mentioned here still: https://github.com/kgdunn/digital-skills-module5/blob/master/Notebooks/02.0%20NumPy%20arrays.ipynb
@@ -26,6 +30,8 @@ Lists
 # and changes made in species will automatically also be made in species2
 species2 = species
 species2.append('wrong')
+Lists: cross reference: https://www.datacamp.com/community/tutorials/18-most-common-python-list-questions-learn-python
+
 
 # Count number od 'wrong' elements in the
 # 'species list using the 'count' function
@@ -140,39 +146,18 @@ NumPy
 >4. The sign of the values in the array: `np.sign(...)`
 
 
-* get the element in row 2, column 3, layer 4
-* iterate over elements of an array
-* recap an exercise from last week.
-* write entries to an array index
-* matrix multiplication for regression: https://nbviewer.jupyter.org/github/engineersCode/EngComp1_offtheground/blob/master/notebooks_en/5_Linear_Regression_with_Real_Data.ipynb
-
-
 **Exercises**
 
 * Random walk
 * Average of the dice thrown tends to be normally
-* Linear system of equations a least squares equation for a doe
 * eig and svd
 * 3D array: calculate summary values across each axis
-
-
-Raspberry PI question
-
-
-### Check your knowledge
-
-. 
-
-
-
+* Raspberry PI question
+* Linear system of equations a least squares equation for a doe
 Matrix form of least squares: https://learnche.org/pid/least-squares-modelling/multiple-linear-regression
-
-
-
 P <- c(-1,   +1,  -1, +1,    0,   0)
 T <- c(-1,   -1,  +1, +1,    0,   0)
 y <- c(699, 713, 753, 745, 732, 733 )
-
 summary(lm(y ~ P + T))
 
 
