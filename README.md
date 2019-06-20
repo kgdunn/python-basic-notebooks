@@ -52,3 +52,10 @@ This module focuses on mathematical operations using arrays.
 
 * Mathematical operations (addition, multiplication, matrix math) on arrays.
 * Challenge problems that require using vectors and matrices.
+
+[Notebook 6: https://yint.org/pybasic06](https://yint.org/pybasic06)
+
+All about functions in Python, to help make your code more modular, and reusable.
+* Single inputs, or multiple inputs: arguments based on their position, or name.
+* None, or single outputs, and also multiple outputs in a tuple.
+* Challenge problems that recall work from prior modules, and apply your knowledge.
