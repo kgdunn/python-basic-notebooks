@@ -2,8 +2,6 @@ Numpy checklist: https://github.com/ageron/handson-ml/blob/master/tools_numpy.ip
 
 to come still: introduce sets as an iterable
 
-
-
 Data analysis/Data Science
 
 Cover topics mentioned here still: https://github.com/kgdunn/digital-skills-module5/blob/master/Notebooks/02.0%20NumPy%20arrays.ipynb
@@ -13,10 +11,10 @@ Containers
 ==========
 There are four collection data types in the Python programming language:
 
-List is a collection which is ordered and changeable. Allows duplicate members.
-Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
-Set is a collection which is unordered and unindexed. No duplicate members.
-Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
+v List is a collection which is ordered and changeable. Allows duplicate members.
+v Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+TODO Set is a collection which is unordered and unindexed. No duplicate members.
+TODO Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
 
 Strings
 =========
@@ -104,9 +102,7 @@ Loops
 -------
 Make the Fibonacci series with append function
 
-Files
--------
-Write to file
+
 
 Types
 ------
@@ -150,7 +146,6 @@ NumPy
 
 * Random walk
 * Average of the dice thrown tends to be normally
-* eig and svd
 * 3D array: calculate summary values across each axis
 * Raspberry PI question
 * Linear system of equations a least squares equation for a doe
