@@ -59,3 +59,10 @@ All about functions in Python, to help make your code more modular, and reusable
 * Single inputs, or multiple inputs: arguments based on their position, or name.
 * None, or single outputs, and also multiple outputs in a tuple.
 * Challenge problems that recall work from prior modules, and apply your knowledge.
+
+[Notebook 7: https://yint.org/pybasic07](https://yint.org/pybasic07)
+
+Introducing Pandas and dictionaries
+* Dictionary objects in Python: the very basics.
+* Pandas two main classes: Series and DataFrame: what they are, and how to use them.
+* Loading and saving data to/from CSV and Excel files.
