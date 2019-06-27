@@ -47,6 +47,10 @@ div.text_cell_render{
 /*    margin-right:auto;*/
 }
 
+.table tr {
+    text-align:left;
+}
+
 /* Formatting for header cells */
 .text_cell_render h1 {
     font-family: 'Merriweather', serif;
