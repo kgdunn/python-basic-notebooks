@@ -87,8 +87,8 @@ div.text_cell_render{
     text-align: left;
     width:500px;
     margin-top: 1em;
-    margin-bottom: 2em;
-    margin-left: 80pt;
+    margin-bottom: 5px;
+    margin-left: 0pt;
     font-style: regular;
 }
 
