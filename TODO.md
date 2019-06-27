@@ -30,6 +30,9 @@ species2 = species
 species2.append('wrong')
 Lists: cross reference: https://www.datacamp.com/community/tutorials/18-most-common-python-list-questions-learn-python
 
+* Copy by reference: show it by example 
+
+
 
 # Count number od 'wrong' elements in the
 # 'species list using the 'count' function
@@ -146,6 +149,7 @@ NumPy
 
 * Random walk
 * Average of the dice thrown tends to be normally
+* eig and svd
 * 3D array: calculate summary values across each axis
 * Raspberry PI question
 * Linear system of equations a least squares equation for a doe
@@ -154,5 +158,12 @@ P <- c(-1,   +1,  -1, +1,    0,   0)
 T <- c(-1,   -1,  +1, +1,    0,   0)
 y <- c(699, 713, 753, 745, 732, 733 )
 summary(lm(y ~ P + T))
+
+Statistics part
+-----------------
+
+https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
+
+* Average of the dice thrown tends to be normally
 
 
