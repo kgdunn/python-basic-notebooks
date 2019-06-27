@@ -166,4 +166,7 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
 
 * Average of the dice thrown tends to be normally
 
+Come back to the moving average example from an earlier module.
+
+
 
