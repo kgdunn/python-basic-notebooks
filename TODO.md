@@ -1,8 +1,6 @@
 Next WS8:
 
 * moving average: group-by month /week. Return back to an example from an earlier module. 
-
-
 Numpy checklist: https://github.com/ageron/handson-ml/blob/master/tools_numpy.ipynb
 
 to come still: introduce sets as an iterable
@@ -102,13 +100,6 @@ Do while loop. Execute, then check: can be done with a break statement and condi
 
 Example. Keep going until you see a particular DNA sequence. Or peak value above certain threshold
 
-Style
------
-Comments: TODO comments used sparingly
-
-Loops
--------
-Make the Fibonacci series with append function
 
 
 
@@ -124,20 +115,10 @@ change from one type to another:
 Lists
 -------
 Then you can iterate on that list, or do anything that lists can do. This section explores list methods
-
-* See mikedane resources
 * Find entries which appear more than once in a list
 * Common elements into two different lists. Join function equivalent?
 * Count how many entries in a list are greater than a threshold. List comprehension
 * Contrast with tuples. Seen before. Immutable concept introduced
-
-General exercises
----------------------
-Random number. Guess it's value. If else, while loops printing.
-
-Later module: Dictionaries introduced:
-------------------
-Calculate the molar mass given a chemical formula: C5H9NOS. Methionine. Do for others amino acids
 
 NumPy
 -----
@@ -154,15 +135,8 @@ NumPy
 
 * Random walk
 * Average of the dice thrown tends to be normally
-* eig and svd
 * 3D array: calculate summary values across each axis
 * Raspberry PI question
-* Linear system of equations a least squares equation for a doe
-Matrix form of least squares: https://learnche.org/pid/least-squares-modelling/multiple-linear-regression
-P <- c(-1,   +1,  -1, +1,    0,   0)
-T <- c(-1,   -1,  +1, +1,    0,   0)
-y <- c(699, 713, 753, 745, 732, 733 )
-summary(lm(y ~ P + T))
 
 Statistics part
 -----------------
@@ -171,6 +145,7 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
 
 * Average of the dice thrown tends to be normally
 
+Come back to the moving average example from an earlier module.
 
 
 
