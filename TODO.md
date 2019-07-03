@@ -1,3 +1,8 @@
+Next WS8:
+
+* moving average: group-by month /week. Return back to an example from an earlier module. 
+
+
 Numpy checklist: https://github.com/ageron/handson-ml/blob/master/tools_numpy.ipynb
 
 to come still: introduce sets as an iterable
@@ -166,7 +171,6 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
 
 * Average of the dice thrown tends to be normally
 
-Come back to the moving average example from an earlier module.
 
 
 
