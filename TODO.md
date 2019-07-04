@@ -1,13 +1,7 @@
-Next WS8:
-
-* moving average: group-by month /week. Return back to an example from an earlier module. 
 Numpy checklist: https://github.com/ageron/handson-ml/blob/master/tools_numpy.ipynb
-
 to come still: introduce sets as an iterable
-
-Data analysis/Data Science
-
 Cover topics mentioned here still: https://github.com/kgdunn/digital-skills-module5/blob/master/Notebooks/02.0%20NumPy%20arrays.ipynb
+
 Consider elements from this notebook for module 1 and 2: https://nbviewer.jupyter.org/github/engineersCode/EngComp1_offtheground/blob/master/notebooks_en/2_Jupyter_strings_and_lists.ipynb
 
 Containers
@@ -16,13 +10,14 @@ There are four collection data types in the Python programming language:
 
 v List is a collection which is ordered and changeable. Allows duplicate members.
 v Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+v Dictionary is a collection which is unordered, changeable and indexed. No duplicate keys.
 TODO Set is a collection which is unordered and unindexed. No duplicate members.
-TODO Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
 
 Strings
 =========
-* M3: List comprehension. Find number of AGTC entries in a sequence.
-* M3: Read genome. Stop when you find first sequence of GATTAG
+* M9: List comprehension. Find number of AGTC entries in a sequence.
+* M9: Read genome. Stop when you find first sequence of GATTAG
+
 
 Lists
 ======
@@ -130,7 +125,6 @@ NumPy
 >3. The reciprocal value of $x$ is equal to $1/x$. You can calculate it using `np.reciprocal(...)`
 >4. The sign of the values in the array: `np.sign(...)`
 
-
 **Exercises**
 
 * Random walk
@@ -141,6 +135,16 @@ NumPy
 Statistics part
 -----------------
 
+* summary: min, max, mean, nanmean, nan-versions
+* percentiles
+* regression
+* EWMA monitoring
+* DOE model analysis?
+
 https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
 
-* Average of the dice thrown tends to be normally
+Plotting
+------------
+
+Back to the bacteria multiplication problem
+Seaborn: Viz: https://engmrk.com/module7-introduction-to-seaborn/
