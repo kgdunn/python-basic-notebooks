@@ -40,29 +40,30 @@ notebooks.
 
 [Notebook 4: https://yint.org/pybasic04](https://yint.org/pybasic04)
 
-This module focuses on introducing vectors, matrices and arrays.
-
+* Introducing vectors, matrices and arrays.
 * Using NumPy to create various vectors, matrices and arrays, containing specific values.
-
-It is a long module, but it is to bring everyone to the same level of understanding.
+* Get everyone to more or less the same level of understanding.
 
 [Notebook 5: https://yint.org/pybasic05](https://yint.org/pybasic05)
-
-This module focuses on mathematical operations using arrays.
 
 * Mathematical operations (addition, multiplication, matrix math) on arrays.
 * Challenge problems that require using vectors and matrices.
 
 [Notebook 6: https://yint.org/pybasic06](https://yint.org/pybasic06)
 
-All about functions in Python, to help make your code more modular, and reusable.
-* Single inputs, or multiple inputs: arguments based on their position, or name.
-* None, or single outputs, and also multiple outputs in a tuple.
+* Functions with single inputs, or multiple inputs: arguments based on their position, or name.
+* Functions with no (None) or single outputs, and multiple outputs in a tuple.
 * Challenge problems that recall work from prior modules, and apply your knowledge.
 
 [Notebook 7: https://yint.org/pybasic07](https://yint.org/pybasic07)
 
-Introducing Pandas and dictionaries
 * Dictionary objects in Python: the very basics.
-* Pandas two main classes: Series and DataFrame: what they are, and how to use them.
+* Introducing Pandas' two main classes: Series and DataFrame: what they are, and how to use them.
 * Loading and saving data to/from CSV and Excel files.
+
+[Notebook 8: https://yint.org/pybasic08](https://yint.org/pybasic08)
+
+* Iterating over entries in a dictionary.
+* Getting and setting values in dictionaries.
+* Reading data from many CSV or Excel files.
+* Moving average calculations.
