@@ -76,14 +76,14 @@ div.text_cell_render{
 
 .text_cell_render h3 {
     font-family: 'Merriweather', serif;
-    font-size: 150%;
+	font-size: 150%;
     margin-top:12px;
     margin-bottom: 3px;
     font-style: regular;
     color: #008367;
 }
 
-.text_cell_render h4 {    /*Use this for captions*/
+.text_cell_render h4 {    /*Use this for Challenge Problems*/
     font-family: 'Merriweather', serif;
     font-weight: bold;
     font-size: 150%;
@@ -94,7 +94,7 @@ div.text_cell_render{
     margin-left: 0pt;
     font-style: regular;
     color: #8B008B;
-}
+
 
 .text_cell_render h5 {  /*Use this for small titles*/
     font-family: 'Source Sans Pro', sans-serif;
