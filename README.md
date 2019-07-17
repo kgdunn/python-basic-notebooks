@@ -67,3 +67,11 @@ notebooks.
 * Getting and setting values in dictionaries.
 * Reading data from many CSV or Excel files.
 * Moving average calculations.
+
+[Notebook 9: https://yint.org/pybasic09](https://yint.org/pybasic09)
+
+* Statistics and Data Visualization: combined
+* Box plots; mean, median, percentiles
+* Bar plots; categorical vs numeric variables
+* Histograms; visualizing distribution and Central Limit Theorem
+
