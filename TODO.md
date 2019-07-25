@@ -52,7 +52,6 @@ a = 3
 b = 4
 q = a if a < b else b
 
-
 Example:
 
 analysis_type = ['MACHINE_TTR', 'MACHINE_PH', 'CellCount method1', 'CellCount method2', 'CellCount method 3']
@@ -127,24 +126,12 @@ NumPy
 
 **Exercises**
 
-* Random walk
-* Average of the dice thrown tends to be normally
 * 3D array: calculate summary values across each axis
-* Raspberry PI question
+
 
 Statistics part
 -----------------
 
-* summary: min, max, mean, nanmean, nan-versions
-* percentiles
-* regression
-* EWMA monitoring
-* DOE model analysis?
-
-https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
-
-Plotting
-------------
-
-Back to the bacteria multiplication problem
-Seaborn: Viz: https://engmrk.com/module7-introduction-to-seaborn/
+* regression -> WS11  https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
+* EWMA monitoring -> WS12
+* DOE model analysis -> WS13
