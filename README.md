@@ -77,7 +77,6 @@ notebooks.
 
 [Notebook 10: https://yint.org/pybasic10](https://yint.org/pybasic10)
 
-* Statistics and Data Visualization: combined and continued
 * Goals of your data analysis project broken down
 * Data tables; correlations; pie charts are not so useful
 * Time-series; trends, induced delay from a moving average, random walks
