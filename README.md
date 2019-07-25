@@ -75,3 +75,12 @@ notebooks.
 * Bar plots; categorical vs numeric variables
 * Histograms; visualizing distribution and Central Limit Theorem
 
+[Notebook 10: https://yint.org/pybasic10](https://yint.org/pybasic10)
+
+* Statistics and Data Visualization: combined and continued
+* Goals of your data analysis project broken down
+* Data tables; correlations; pie charts are not so useful
+* Time-series; trends, induced delay from a moving average, random walks
+* Scatter plots; showing 5 variables in 1 plot
+* Extending the box plot: violin, swarm and raincloud plots
+
