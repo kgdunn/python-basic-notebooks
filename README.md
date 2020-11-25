@@ -83,3 +83,17 @@ notebooks.
 * Scatter plots; showing 5 variables in 1 plot
 * Extending the box plot: violin, swarm and raincloud plots
 
+
+Learning Python: focus on getting results
+==================================
+
+In these series of 6 notebooks the focus is for people with some/minimal experience in coding (e.g. MATLAB, C++) to get started with Python. The target audience is process engineers and scientists. People that need to get some sort of value extracted from their data.
+
+As such, it does not teach loops, branching, data structures, etc. In other words, the theoretical computer science concepts are introduced as needed, but not explicitly. 
+
+[Notebook 11: https://yint.org/pybasic11](https://yint.org/pybasic11)
+
+* Printing output to the screen
+* Creating variables
+* Basic calculations with variables
+* Lists
