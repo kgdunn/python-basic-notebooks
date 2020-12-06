@@ -94,6 +94,5 @@ As such, it does not teach loops, branching, data structures, etc. In other word
 [Notebook 11: https://yint.org/pybasic11](https://yint.org/pybasic11)
 
 * Printing output to the screen
-* Creating variables
-* Basic calculations with variables
+* Creating variables, and basic calculations with them
 * Lists
