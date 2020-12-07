@@ -96,3 +96,36 @@ As such, it does not teach loops, branching, data structures, etc. In other word
 * Printing output to the screen
 * Creating variables, and basic calculations with them
 * Lists
+
+[Notebook 12: https://yint.org/pybasic12](https://yint.org/pybasic12)
+
+* Using and understanding the Pandas library
+* Creating Pandas series and data frames and basic calculations with them
+* Reading in Excel files with Pandas and basic calculation
+
+[Notebook 13: https://yint.org/pybasic13](https://yint.org/pybasic13)
+
+* Becoming more comfortable with Pandas data processing
+* Shape of data, unique values, adding/removing data, merging dataframes, sorting data
+* Basic plotting with Pandas: box plot, time series and scatter plots
+
+[Notebook 14: https://yint.org/pybasic14](https://yint.org/pybasic14)
+
+* For loops, for when we need to do things over and over
+* The `groupby` function, for repeated actions on sub-groups of your data
+* Calculating the correlation matrix
+
+[Notebook 15: https://yint.org/pybasic15](https://yint.org/pybasic15)
+
+* Visualize the correlation matrix (2D histograms)
+* Using the `LinearRegression` tool from `scikit-learn`
+* The `.iloc` function in Pandas to split data into testing and training subset
+* Using `seaborn` to visualize regression models
+
+[Notebook 16: https://yint.org/pybasic16](https://yint.org/pybasic16)
+
+* Pandas collection: reading in subsets of data
+* Handling missing values with Pandas
+* Filtering data, and the multi-level groupby capability of Panda
+* Effective table display in Pandas
+* Summary of what value you can extract from data
