@@ -128,4 +128,3 @@ As such, it does not teach loops, branching, data structures, etc. In other word
 * Handling missing values with Pandas
 * Filtering data, and the multi-level groupby capability of Panda
 * Effective table display in Pandas
-* Summary of what value you can extract from data
